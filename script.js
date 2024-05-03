@@ -38,6 +38,7 @@ const myfunc = () => {
 
         const newlist = list;
         newlist.splice(index, 1);
+        
         display(newlist);
       });
     });
