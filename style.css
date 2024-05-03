@@ -91,6 +91,9 @@
   font-size: 19px;
   height: 30px;
 }
+button {
+  color: black;
+}
 /* added the media querry */
 @media (max-width: 550px) {
   .container {
