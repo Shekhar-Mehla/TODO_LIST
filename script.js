@@ -15,7 +15,7 @@ const display = (list) => {
 const myfunc = () => {
   let inputValue = document.querySelector(".container input").value;
   if (inputValue === "") {
-    alert("enter the task name");
+    alert("<h3>Enter the task name</h3>");
     return;
   } else {
     const item = `<div class = "list-items">

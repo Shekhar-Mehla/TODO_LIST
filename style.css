@@ -91,3 +91,45 @@
   font-size: 19px;
   height: 30px;
 }
+@media (max-width: 375px) {
+  .container {
+    width: 94%;
+    height: 60vh;
+    max-height: 450px;
+    background: #d3c7c7;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(16, 16, 16);
+    position: relative;
+  }
+  .container input {
+    position: absolute;
+    top: 48px;
+    left: 9px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #a9b3ba;
+    width: 317px;
+    height: 50px;
+    padding-left: 24px;
+  }
+  .container .addbtn {
+    position: absolute;
+    top: 48px;
+    left: 233px;
+    border-radius: 11px;
+    outline: none;
+    width: 95px;
+    background-color: green;
+    height: 49px;
+  }
+  .list_container {
+    position: absolute;
+    top: 111px;
+    left: 6px;
+    background-color: rgb(161, 152, 152);
+    width: 93%;
+    padding: 5px 10px 10px 0;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+}
